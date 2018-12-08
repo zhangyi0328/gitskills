@@ -1,0 +1,306 @@
+2018-12-04 06:15:49.214 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangyi-PC with PID 15240 (D:\intellijworkspace\gitskills\demo\demo\spring-demo\target\classes started by zy in D:\intellijworkspace\gitskills\demo\demo)
+2018-12-04 06:15:49.217 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-04 06:15:49.856 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-04 06:15:49.890 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2018-12-04 06:15:50.184 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3679b446] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-04 06:15:50.466 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-04 06:15:50.478 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-04 06:15:50.486 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-04 06:15:50.486 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-04 06:15:50.492 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\db\oracle\db\product\11.2.0\dbhome_3\bin;G:\db\oracle\db\product\11.2.0\dbhome_2\bin;G:\db\oracle\db\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\jdk\jdk1.8.0_151\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;F:\maven\apache-maven-3.2.5\bin;D:\git\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bi;D:\gradle\gradle-4.8-rc-3\bin;G:\mysql\mysql5.7\mysql-5.7.21-winx64\bin;G:\db\mysql\mysql-5.7.23-winx64\bin;C:\Users\zy\AppData\Local\GitHubDesktop\bin;.]
+2018-12-04 06:15:50.718 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-04 06:15:50.722 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-04 06:15:50.722 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1458 ms
+2018-12-04 06:15:51.120 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-04 06:15:51.249 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-04 06:15:51.313 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-04 06:15:51.315 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-12-04 06:15:51.456 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-04 06:15:51.594 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-04 06:15:51.768 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-04 06:15:51.993 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-04 06:15:52.033 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-04 06:15:52.094 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [resources/index.html]
+2018-12-04 06:15:52.283 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47ef5a33, org.springframework.security.web.context.SecurityContextPersistenceFilter@6fd7aba8, org.springframework.security.web.header.HeaderWriterFilter@3a4f8e8a, org.springframework.security.web.authentication.logout.LogoutFilter@7c8f047a, com.example.demo.security.validata.filter.ValidateCodeFilter@16ac5d35, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4387d2f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ce7490a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1da53f4f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a278584, org.springframework.security.web.session.SessionManagementFilter@5fc1e4fb, org.springframework.security.web.access.ExceptionTranslationFilter@51e94b7d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@92e2c93]
+2018-12-04 06:15:52.336 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-04 06:15:52.346 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-04 06:15:52.368 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-04 06:15:52.371 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.67 seconds (JVM running for 4.473)
+2018-12-04 06:16:01.981 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-04 06:16:01.981 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-04 06:16:01.989 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2018-12-04 06:16:06.105 [http-nio-8080-exec-4] INFO  com.example.demo.controller.SecurityController - 引发跳转的请求是:http://localhost:8080/authentication/require.html
+2018-12-04 06:16:17.652 [http-nio-8080-exec-8] INFO  c.e.d.security.validata.filter.ValidateCodeFilter - 校验请求(/authentication/form)中的验证码,验证码类型IMAGE
+2018-12-04 06:16:17.652 [http-nio-8080-exec-8] INFO  c.e.d.security.validata.filter.ValidateCodeFilter - 验证码校验通过
+2018-12-04 06:16:17.778 [http-nio-8080-exec-8] INFO  com.example.demo.services.UserDetailsService - 用户的用户名: zhangyi
+2018-12-04 06:16:17.868 [http-nio-8080-exec-8] INFO  com.example.demo.services.UserDetailsService - password: $2a$10$PCmQrkBYmMRzDjbqh0kkBe.yICJ.om7L/VzKnHivQJsVAkpIFEDjy
+2018-12-04 06:16:17.965 [http-nio-8080-exec-8] INFO  c.e.d.s.a.AuthenctiationSuccessHandler - 登录成功
+2018-12-04 06:16:30.513 [http-nio-8080-exec-3] INFO  com.example.demo.controller.SecurityController - 引发跳转的请求是:http://localhost:8080/authentication/form.html
+2018-12-04 06:17:05.879 [http-nio-8080-exec-7] INFO  c.e.d.security.validata.filter.ValidateCodeFilter - 校验请求(/authentication/form)中的验证码,验证码类型IMAGE
+2018-12-04 06:17:05.879 [http-nio-8080-exec-7] INFO  c.e.d.security.validata.filter.ValidateCodeFilter - 验证码校验通过
+2018-12-04 06:17:05.879 [http-nio-8080-exec-7] INFO  com.example.demo.services.UserDetailsService - 用户的用户名: zhangyi
+2018-12-04 06:17:06.004 [http-nio-8080-exec-7] INFO  com.example.demo.services.UserDetailsService - password: $2a$10$G7koeklQURW6iE22P6tYm.FqGsCKVIyqvpnUP3vt1kSv5C.qNtrMS
+2018-12-04 06:17:06.098 [http-nio-8080-exec-7] INFO  c.e.d.s.a.AuthenctiationSuccessHandler - 登录成功
+2018-12-04 06:17:16.346 [http-nio-8080-exec-2] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 06:17:16.523 [http-nio-8080-exec-3] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 06:17:25.742 [http-nio-8080-exec-6] INFO  com.example.demo.controller.SecurityController - 引发跳转的请求是:http://localhost:8080/index
+2018-12-04 06:39:06.494 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangyi-PC with PID 17296 (D:\intellijworkspace\gitskills\demo\demo\spring-demo\target\classes started by zy in D:\intellijworkspace\gitskills\demo\demo)
+2018-12-04 06:39:06.497 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-04 06:39:07.218 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-04 06:39:07.256 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2018-12-04 06:39:07.546 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c584bf72] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-04 06:39:07.856 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-04 06:39:07.867 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-04 06:39:07.874 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-04 06:39:07.875 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-04 06:39:07.882 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\db\oracle\db\product\11.2.0\dbhome_3\bin;G:\db\oracle\db\product\11.2.0\dbhome_2\bin;G:\db\oracle\db\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\jdk\jdk1.8.0_151\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;F:\maven\apache-maven-3.2.5\bin;D:\git\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bi;D:\gradle\gradle-4.8-rc-3\bin;G:\mysql\mysql5.7\mysql-5.7.21-winx64\bin;G:\db\mysql\mysql-5.7.23-winx64\bin;C:\Users\zy\AppData\Local\GitHubDesktop\bin;.]
+2018-12-04 06:39:08.114 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-04 06:39:08.118 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-04 06:39:08.118 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1491 ms
+2018-12-04 06:39:08.499 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-04 06:39:08.628 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-04 06:39:08.691 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-04 06:39:08.693 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-12-04 06:39:08.832 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-04 06:39:08.968 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-04 06:39:09.141 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-04 06:39:09.367 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-04 06:39:09.406 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-04 06:39:09.467 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [resources/index.html]
+2018-12-04 06:39:09.660 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d18338b, org.springframework.security.web.context.SecurityContextPersistenceFilter@32f308c6, org.springframework.security.web.header.HeaderWriterFilter@38cb1606, org.springframework.security.web.authentication.logout.LogoutFilter@459bf87c, com.example.demo.security.validata.filter.ValidateCodeFilter@b61edb9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5ae66c98, org.springframework.security.web.session.ConcurrentSessionFilter@5d3b6585, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@698ac187, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b1c501d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f4a605f, org.springframework.security.web.session.SessionManagementFilter@655909e2, org.springframework.security.web.access.ExceptionTranslationFilter@4348fa35, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@521a506c]
+2018-12-04 06:39:09.712 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-04 06:39:09.722 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-04 06:39:09.745 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-04 06:39:09.749 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.734 seconds (JVM running for 4.484)
+2018-12-04 06:39:28.020 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-04 06:39:28.020 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-04 06:39:28.026 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2018-12-04 06:39:28.047 [http-nio-8080-exec-1] INFO  c.e.demo.security.session.InvalideSessionStrategy - session失效,跳转到/session/invalid.html
+2018-12-04 06:39:28.172 [http-nio-8080-exec-3] INFO  com.example.demo.controller.SecurityController - 引发跳转的请求是:http://localhost:8080/session/invalid.html
+2018-12-04 06:39:38.610 [http-nio-8080-exec-7] INFO  c.e.d.security.validata.filter.ValidateCodeFilter - 校验请求(/authentication/form)中的验证码,验证码类型IMAGE
+2018-12-04 06:39:38.610 [http-nio-8080-exec-7] INFO  c.e.d.security.validata.filter.ValidateCodeFilter - 验证码校验通过
+2018-12-04 06:39:38.734 [http-nio-8080-exec-7] INFO  com.example.demo.services.UserDetailsService - 用户的用户名: zhangyi
+2018-12-04 06:39:38.827 [http-nio-8080-exec-7] INFO  com.example.demo.services.UserDetailsService - password: $2a$10$TsTVH4NuH/1i8hgQYvjMKOTaXTFIlSY6.JpaA2Xho3uFFgLWMNp4i
+2018-12-04 06:39:38.926 [http-nio-8080-exec-7] INFO  c.e.d.s.a.AuthenctiationSuccessHandler - 登录成功
+2018-12-04 06:39:47.077 [http-nio-8080-exec-8] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 06:39:47.364 [http-nio-8080-exec-9] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 06:39:51.408 [http-nio-8080-exec-10] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 06:39:53.907 [http-nio-8080-exec-1] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 06:39:55.710 [http-nio-8080-exec-2] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 06:43:48.994 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangyi-PC with PID 14416 (D:\intellijworkspace\gitskills\demo\demo\spring-demo\target\classes started by zy in D:\intellijworkspace\gitskills\demo\demo)
+2018-12-04 06:43:48.997 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-04 06:43:49.624 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-04 06:43:49.661 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2018-12-04 06:43:49.968 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$81d61bba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-04 06:43:50.265 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-04 06:43:50.277 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-04 06:43:50.284 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-04 06:43:50.285 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-04 06:43:50.291 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\db\oracle\db\product\11.2.0\dbhome_3\bin;G:\db\oracle\db\product\11.2.0\dbhome_2\bin;G:\db\oracle\db\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\jdk\jdk1.8.0_151\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;F:\maven\apache-maven-3.2.5\bin;D:\git\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bi;D:\gradle\gradle-4.8-rc-3\bin;G:\mysql\mysql5.7\mysql-5.7.21-winx64\bin;G:\db\mysql\mysql-5.7.23-winx64\bin;C:\Users\zy\AppData\Local\GitHubDesktop\bin;.]
+2018-12-04 06:43:50.542 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-04 06:43:50.547 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-04 06:43:50.547 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1481 ms
+2018-12-04 06:43:50.963 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-04 06:43:51.099 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-04 06:43:51.164 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-04 06:43:51.166 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-12-04 06:43:51.310 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-04 06:43:51.452 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-04 06:43:51.629 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-04 06:43:51.871 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-04 06:43:51.910 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-04 06:43:51.970 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [resources/index.html]
+2018-12-04 06:43:52.163 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@246df37b, org.springframework.security.web.context.SecurityContextPersistenceFilter@106459d9, org.springframework.security.web.header.HeaderWriterFilter@39dda56f, org.springframework.security.web.authentication.logout.LogoutFilter@2bb3f39e, com.example.demo.security.validata.filter.ValidateCodeFilter@3135bf25, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11f3400c, org.springframework.security.web.session.ConcurrentSessionFilter@1fbd5e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23c05889, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a99c42c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2abedbbd, org.springframework.security.web.session.SessionManagementFilter@2ee456c7, org.springframework.security.web.access.ExceptionTranslationFilter@61c5fd78, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26270b77]
+2018-12-04 06:43:52.225 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-04 06:43:52.235 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-04 06:43:52.258 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-04 06:43:52.262 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.876 seconds (JVM running for 4.654)
+2018-12-04 06:43:59.854 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-04 06:43:59.855 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-04 06:43:59.862 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2018-12-04 06:44:24.099 [http-nio-8080-exec-4] INFO  com.example.demo.controller.SecurityController - 引发跳转的请求是:http://localhost:8080/index
+2018-12-04 06:44:30.260 [http-nio-8080-exec-6] INFO  com.example.demo.controller.SecurityController - 引发跳转的请求是:http://localhost:8080/authentication/require.html
+2018-12-04 06:44:31.104 [http-nio-8080-exec-10] INFO  com.example.demo.controller.SecurityController - 引发跳转的请求是:http://localhost:8080/authentication/require.html
+2018-12-04 06:44:41.656 [http-nio-8080-exec-4] INFO  c.e.d.security.validata.filter.ValidateCodeFilter - 校验请求(/authentication/form)中的验证码,验证码类型IMAGE
+2018-12-04 06:44:41.656 [http-nio-8080-exec-4] INFO  c.e.d.security.validata.filter.ValidateCodeFilter - 验证码校验通过
+2018-12-04 06:44:41.803 [http-nio-8080-exec-4] INFO  com.example.demo.services.UserDetailsService - 用户的用户名: zhangyi
+2018-12-04 06:44:41.896 [http-nio-8080-exec-4] INFO  com.example.demo.services.UserDetailsService - password: $2a$10$LKAJGRq/8/U24Imn1b1snunu/0CPf7uGpiBR937dCcQnM2Q08bBNS
+2018-12-04 06:44:41.993 [http-nio-8080-exec-4] INFO  c.e.d.s.a.AuthenctiationSuccessHandler - 登录成功
+2018-12-04 06:44:47.536 [http-nio-8080-exec-5] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 06:44:47.722 [http-nio-8080-exec-6] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 06:44:51.319 [http-nio-8080-exec-7] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 07:02:27.675 [http-nio-8080-exec-9] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 07:07:49.347 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangyi-PC with PID 6720 (D:\intellijworkspace\gitskills\demo\demo\spring-demo\target\classes started by zy in D:\intellijworkspace\gitskills\demo\demo)
+2018-12-04 07:07:49.350 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-04 07:07:50.005 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-04 07:07:50.041 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2018-12-04 07:07:50.339 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3c6ded45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-04 07:07:50.632 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-04 07:07:50.644 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-04 07:07:50.651 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-04 07:07:50.652 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-04 07:07:50.658 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\db\oracle\db\product\11.2.0\dbhome_3\bin;G:\db\oracle\db\product\11.2.0\dbhome_2\bin;G:\db\oracle\db\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\jdk\jdk1.8.0_151\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;F:\maven\apache-maven-3.2.5\bin;D:\git\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bi;D:\gradle\gradle-4.8-rc-3\bin;G:\mysql\mysql5.7\mysql-5.7.21-winx64\bin;G:\db\mysql\mysql-5.7.23-winx64\bin;C:\Users\zy\AppData\Local\GitHubDesktop\bin;.]
+2018-12-04 07:07:50.883 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-04 07:07:50.887 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-04 07:07:50.888 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1495 ms
+2018-12-04 07:07:51.284 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-04 07:07:51.415 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-04 07:07:51.479 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-04 07:07:51.481 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-12-04 07:07:51.620 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-04 07:07:51.758 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-04 07:07:51.932 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-04 07:07:52.163 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-04 07:07:52.204 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-04 07:07:52.265 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [resources/index.html]
+2018-12-04 07:07:52.464 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e01796a, org.springframework.security.web.context.SecurityContextPersistenceFilter@35454c7a, org.springframework.security.web.header.HeaderWriterFilter@727dcc64, org.springframework.security.web.authentication.logout.LogoutFilter@21ea1d9d, com.example.demo.security.validata.filter.ValidateCodeFilter@7a6ea47d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@19f497aa, org.springframework.security.web.session.ConcurrentSessionFilter@2e426dd2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@319aa9ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b5b53c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62ab5e63, org.springframework.security.web.session.SessionManagementFilter@288409f0, org.springframework.security.web.access.ExceptionTranslationFilter@6480a063, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25e6c22a]
+2018-12-04 07:07:52.518 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-04 07:07:52.528 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-04 07:07:52.552 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-04 07:07:52.555 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.704 seconds (JVM running for 4.475)
+2018-12-04 07:07:58.739 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-04 07:07:58.739 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2018-12-04 07:07:58.746 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2018-12-04 07:07:58.766 [http-nio-8080-exec-1] INFO  c.e.demo.security.session.InvalideSessionStrategy - session失效,跳转到/session/invalid.html
+2018-12-04 07:07:58.895 [http-nio-8080-exec-2] INFO  com.example.demo.controller.SecurityController - 引发跳转的请求是:http://localhost:8080/session/invalid.html
+2018-12-04 07:08:10.350 [http-nio-8080-exec-6] INFO  c.e.d.security.validata.filter.ValidateCodeFilter - 校验请求(/authentication/form)中的验证码,验证码类型IMAGE
+2018-12-04 07:08:10.350 [http-nio-8080-exec-6] INFO  c.e.d.security.validata.filter.ValidateCodeFilter - 验证码校验通过
+2018-12-04 07:08:10.464 [http-nio-8080-exec-6] INFO  com.example.demo.services.UserDetailsService - 用户的用户名: zhangyi
+2018-12-04 07:08:10.556 [http-nio-8080-exec-6] INFO  com.example.demo.services.UserDetailsService - password: $2a$10$Wz/gC6pl/emj4BjI1Xtr3OMICQyIJgcqzR0uAwZuNK5wRQ.AZTtLa
+2018-12-04 07:08:22.319 [http-nio-8080-exec-6] INFO  c.e.d.s.a.AuthenctiationSuccessHandler - 登录成功
+2018-12-04 07:08:55.991 [http-nio-8080-exec-9] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 07:08:56.196 [http-nio-8080-exec-10] ERROR com.example.demo.exception.advice.ExceptionAdvice - 遇到业务逻辑异常：【errorMsg:error】
+2018-12-04 07:27:48.311 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangyi-PC with PID 16592 (D:\intellijworkspace\gitskills\demo\demo\spring-demo\target\classes started by zy in D:\intellijworkspace\gitskills\demo\demo)
+2018-12-04 07:27:48.316 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-04 07:27:49.184 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-04 07:27:49.219 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2018-12-04 07:27:49.265 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'propertySourcesPlaceholderConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/session/JdbcSessionConfiguration$SpringBootJdbcHttpSessionConfiguration.class]: Cannot register bean definition [Root bean: class [org.springframework.boot.autoconfigure.session.JdbcSessionConfiguration$SpringBootJdbcHttpSessionConfiguration]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/session/JdbcSessionConfiguration$SpringBootJdbcHttpSessionConfiguration.class]] for bean 'propertySourcesPlaceholderConfigurer': There is already [Root bean: class [org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/context/PropertyPlaceholderAutoConfiguration.class]] bound.
+2018-12-04 07:27:49.273 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-04 07:27:49.276 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'propertySourcesPlaceholderConfigurer', defined in class path resource [org/springframework/boot/autoconfigure/session/JdbcSessionConfiguration$SpringBootJdbcHttpSessionConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/context/PropertyPlaceholderAutoConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2018-12-04 07:33:06.086 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangyi-PC with PID 6148 (D:\intellijworkspace\gitskills\demo\demo\spring-demo\target\classes started by zy in D:\intellijworkspace\gitskills\demo\demo)
+2018-12-04 07:33:06.090 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-04 07:33:06.809 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-04 07:33:06.848 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2018-12-04 07:33:06.894 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'propertySourcesPlaceholderConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/session/JdbcSessionConfiguration$SpringBootJdbcHttpSessionConfiguration.class]: Cannot register bean definition [Root bean: class [org.springframework.boot.autoconfigure.session.JdbcSessionConfiguration$SpringBootJdbcHttpSessionConfiguration]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/session/JdbcSessionConfiguration$SpringBootJdbcHttpSessionConfiguration.class]] for bean 'propertySourcesPlaceholderConfigurer': There is already [Root bean: class [org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/context/PropertyPlaceholderAutoConfiguration.class]] bound.
+2018-12-04 07:33:06.902 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-04 07:33:06.904 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'propertySourcesPlaceholderConfigurer', defined in class path resource [org/springframework/boot/autoconfigure/session/JdbcSessionConfiguration$SpringBootJdbcHttpSessionConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/context/PropertyPlaceholderAutoConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2018-12-04 07:33:27.066 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangyi-PC with PID 16616 (D:\intellijworkspace\gitskills\demo\demo\spring-demo\target\classes started by zy in D:\intellijworkspace\gitskills\demo\demo)
+2018-12-04 07:33:27.069 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-04 07:33:27.726 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-04 07:33:27.764 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2018-12-04 07:33:27.807 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'propertySourcesPlaceholderConfigurer' defined in class path resource [org/springframework/boot/autoconfigure/session/JdbcSessionConfiguration$SpringBootJdbcHttpSessionConfiguration.class]: Cannot register bean definition [Root bean: class [org.springframework.boot.autoconfigure.session.JdbcSessionConfiguration$SpringBootJdbcHttpSessionConfiguration]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/session/JdbcSessionConfiguration$SpringBootJdbcHttpSessionConfiguration.class]] for bean 'propertySourcesPlaceholderConfigurer': There is already [Root bean: class [org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=propertySourcesPlaceholderConfigurer; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/context/PropertyPlaceholderAutoConfiguration.class]] bound.
+2018-12-04 07:33:27.815 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-04 07:33:27.818 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'propertySourcesPlaceholderConfigurer', defined in class path resource [org/springframework/boot/autoconfigure/session/JdbcSessionConfiguration$SpringBootJdbcHttpSessionConfiguration.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/context/PropertyPlaceholderAutoConfiguration.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2018-12-04 07:34:45.650 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangyi-PC with PID 7256 (D:\intellijworkspace\gitskills\demo\demo\spring-demo\target\classes started by zy in D:\intellijworkspace\gitskills\demo\demo)
+2018-12-04 07:34:45.653 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-04 07:34:46.343 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-04 07:34:46.381 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2018-12-04 07:34:46.673 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$342da6b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-04 07:34:46.972 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-04 07:34:46.984 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-04 07:34:46.992 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-04 07:34:46.992 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-04 07:34:46.998 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\db\oracle\db\product\11.2.0\dbhome_3\bin;G:\db\oracle\db\product\11.2.0\dbhome_2\bin;G:\db\oracle\db\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\jdk\jdk1.8.0_151\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;F:\maven\apache-maven-3.2.5\bin;D:\git\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bi;D:\gradle\gradle-4.8-rc-3\bin;G:\mysql\mysql5.7\mysql-5.7.21-winx64\bin;G:\db\mysql\mysql-5.7.23-winx64\bin;C:\Users\zy\AppData\Local\GitHubDesktop\bin;.]
+2018-12-04 07:34:47.222 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-04 07:34:47.226 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-04 07:34:47.226 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1526 ms
+2018-12-04 07:34:47.613 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-04 07:34:47.743 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-04 07:34:47.807 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-04 07:34:47.809 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-12-04 07:34:47.949 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-04 07:34:48.091 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-04 07:34:48.266 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-04 07:34:48.496 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-04 07:34:48.535 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-04 07:34:48.597 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [resources/index.html]
+2018-12-04 07:34:48.789 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39acd1f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f3c5308, org.springframework.security.web.header.HeaderWriterFilter@4ca970d5, org.springframework.security.web.authentication.logout.LogoutFilter@b841713, com.example.demo.security.validata.filter.ValidateCodeFilter@233db8e9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3fef1e6b, org.springframework.security.web.session.ConcurrentSessionFilter@780ee3ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51e94b7d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1530d0f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51813065, org.springframework.security.web.session.SessionManagementFilter@6a2badb1, org.springframework.security.web.access.ExceptionTranslationFilter@7c9372ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ac685ef]
+2018-12-04 07:34:48.843 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-04 07:34:48.853 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-04 07:34:48.876 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-04 07:34:48.880 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.707 seconds (JVM running for 4.489)
+2018-12-04 07:38:33.269 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on zhangyi-PC with PID 5720 (D:\intellijworkspace\gitskills\demo\demo\spring-demo\target\classes started by zy in D:\intellijworkspace\gitskills\demo\demo)
+2018-12-04 07:38:33.272 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-12-04 07:38:33.912 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-04 07:38:33.949 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2018-12-04 07:38:34.247 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$783f7c7f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-04 07:38:34.545 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-12-04 07:38:34.557 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-12-04 07:38:34.565 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-04 07:38:34.565 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-04 07:38:34.571 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\jdk\jdk1.8.0_151\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;G:\db\oracle\db\product\11.2.0\dbhome_3\bin;G:\db\oracle\db\product\11.2.0\dbhome_2\bin;G:\db\oracle\db\product\11.2.0\dbhome_1\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\jdk\jdk1.8.0_151\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;F:\maven\apache-maven-3.2.5\bin;D:\git\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bi;D:\gradle\gradle-4.8-rc-3\bin;G:\mysql\mysql5.7\mysql-5.7.21-winx64\bin;G:\db\mysql\mysql-5.7.23-winx64\bin;C:\Users\zy\AppData\Local\GitHubDesktop\bin;.]
+2018-12-04 07:38:34.800 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-12-04 07:38:34.805 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-04 07:38:34.805 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1456 ms
+2018-12-04 07:38:35.190 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-04 07:38:35.320 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-12-04 07:38:35.384 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.7.Final}
+2018-12-04 07:38:35.386 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-12-04 07:38:35.527 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2018-12-04 07:38:35.664 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-12-04 07:38:35.838 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-04 07:38:36.070 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-04 07:38:36.111 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-04 07:38:36.174 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [resources/index.html]
+2018-12-04 07:38:36.369 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@391d28ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@dc8b2ff, org.springframework.security.web.header.HeaderWriterFilter@71a2df1, org.springframework.security.web.authentication.logout.LogoutFilter@7573c7b5, com.example.demo.security.validata.filter.ValidateCodeFilter@6870c3c2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@73da7f08, org.springframework.security.web.session.ConcurrentSessionFilter@137a4b54, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14201a90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51e94b7d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23df7fad, org.springframework.security.web.session.SessionManagementFilter@2a9e754e, org.springframework.security.web.access.ExceptionTranslationFilter@48af5f38, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6533629]
+2018-12-04 07:38:36.423 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-12-04 07:38:36.433 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-04 07:38:36.456 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-04 07:38:36.459 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.734 seconds (JVM running for 4.491)

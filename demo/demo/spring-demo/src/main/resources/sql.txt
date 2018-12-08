@@ -1,0 +1,5 @@
+create table user(
+      id int primary key auto_increment,#部门编号 整形 主键 自增长
+      username varchar(18),#部门名称
+      password varchar(100)#描述
+ );
